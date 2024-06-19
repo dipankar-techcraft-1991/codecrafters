@@ -2,6 +2,8 @@
 
 This is a responsive web application built using Next.js that replicates a coding challenge platform page (Code Crafters). The page is divided into two main sections: a problem statement and a code editor with run and submit buttons. The layout is responsive and adapts to various screen sizes, ensuring the web page looks good on both desktop and mobile devices.
 
+The code inside the editor is static and intended for demonstration purposes only. It does not function dynamically.
+
 ## Components
 
 Navbar.js: Contains the navigation bar with a dark mode toggle button.
@@ -55,6 +57,8 @@ Node Js (v20.11.1)
 
 3. Run the development server:
    npm run dev
+
+4.
 
 ## Deployment Link
 
