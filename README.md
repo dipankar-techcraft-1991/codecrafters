@@ -48,7 +48,7 @@ Node Js (v20.11.1)
 
 1. Clone the repository:
    git clone https://github.com/dmajumdar1991/codecrafters.git <br/>
-   cd codecafters
+   cd codecrafters
 
 2. Install dependencies:
    npm install
