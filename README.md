@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Crafters - Coding Challenge Platform
 
-## Getting Started
+This is a responsive web application built using Next.js that replicates a coding challenge platform page (Code Crafters). The page is divided into two main sections: a problem statement and a code editor with run and submit buttons. The layout is responsive and adapts to various screen sizes, ensuring the web page looks good on both desktop and mobile devices.
 
-First, run the development server:
+## Components
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Navbar.js: Contains the navigation bar with a dark mode toggle button.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+CodeEditor.js: Includes the Monaco Editor with run and submit buttons, displays test case results, and shows a modal on submission.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Problem Statement Section:
 
-## Learn More
+Displays the problem description.
 
-To learn more about Next.js, take a look at the following resources:
+### Code Editor:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Integrates the Monaco Editor for code editing with "Run" and "Submit" buttons.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Results:
 
-## Deploy on Vercel
+Displays mock output below when the "Run" button is clicked.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Submission Confirmation:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Display a mock submission confirmation message below when the "Submit" button is clicked.
+
+### Dark Mode:
+
+Toggle dark mode for the code editor and the application.
+
+### Responsive Design:
+
+Ensures the application looks good on mobile and small devices.
+
+### Modern Styling:
+
+Uses Tailwind CSS and Custom CSS for consistent and modern styling.
+
+## Setup and Run
+
+### Prerequisites
+
+Node Js (v20.11.1)
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/dmajumdar1991/codecafters.git
+   cd codecafters
+
+2. Install dependencies:
+   npm install
+
+3. Run the development server:
+   npm run dev
