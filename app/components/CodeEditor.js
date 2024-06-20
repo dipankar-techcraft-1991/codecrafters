@@ -8,6 +8,7 @@ const CodeEditor = ({ darkMode }) => {
   const [code, setCode] = useState(sampleCode);
   const [output, setOutput] = useState("");
   const [submit, setSubmit] = useState("");
+
   const runCode = () => {
     setOutput("Code Executed Successfully! \nResult: 3");
     setSubmit("");
