@@ -58,10 +58,6 @@ Node Js (v20.11.1)
 3. Run the development server:
    "npm run dev" or "yarn dev"
 
-## Run the Docker container:
-
-### docker run -p 3000:3000 codecrafters
-
 ## Deployment Link
 
 ### https://codecrafters-peach.vercel.app
