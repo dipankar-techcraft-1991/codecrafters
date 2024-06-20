@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar darkMode={darkMode} changeDarkMode={changeDarkMode} />
       <div className="min-h-screen flex flex-col md:flex-row">
         <section
-          className={`w-full md:w-1/2 px-8 py-5 bg-white m-4 shadow-2xl shadow-slate-400 ${
+          className={`md:w-1/2 px-8 py-5 bg-white m-4 shadow-2xl shadow-slate-400 ${
             darkMode ? "bg-sectioncolor text-white" : ""
           }`}
         >
@@ -29,7 +29,7 @@ export default function Home() {
             Example: sum(1, 2) should return 3.
           </p>
         </section>
-        <section className={`w-full md:w-1/2 p-4`}>
+        <section className={`md:w-1/2 p-4`}>
           <CodeEditor darkMode={darkMode} />
         </section>
       </div>
