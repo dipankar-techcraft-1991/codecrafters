@@ -1,7 +1,7 @@
 const Navbar = ({ darkMode, changeDarkMode }) => {
   return (
     <nav className="flex justify-between items-center p-4 bg-gradient-to-r from-slate-900 to-slate-700 shadow-2xl">
-      <div className="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-500 to-purple-700">
+      <div className="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500">
         CODE CRAFTERS
       </div>
       <button
