@@ -1,6 +1,6 @@
 const Navbar = ({ darkMode, changeDarkMode }) => {
   return (
-    <nav className="flex justify-between items-center p-4 bg-gradient-to-r from-slate-900 to-slate-700 shadow-xl shadow-slate-700">
+    <nav className="flex justify-between items-center p-4 bg-gradient-to-r from-slate-900 to-slate-700 shadow-xl shadow-slate-500">
       <div className="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-teal-400 to-teal-600">
         CODE CRAFTERS
       </div>
