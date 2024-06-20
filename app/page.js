@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar darkMode={darkMode} changeDarkMode={changeDarkMode} />
       <div className="min-h-screen flex flex-col md:flex-row">
         <section
-          className={`md:w-1/2 px-8 py-5 bg-white m-4 shadow-2xl shadow-slate-400 ${
+          className={`md:w-1/2 px-8 py-5 bg-white m-4 shadow-2xl shadow-slate-900 ${
             darkMode
               ? "bg-gradient-to-r from-slate-900 to-slate-700 text-white"
               : ""

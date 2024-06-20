@@ -21,7 +21,7 @@ const CodeEditor = ({ darkMode }) => {
 
   return (
     <div
-      className={`flex flex-col h-full shadow-2xl shadow-slate-400 ${
+      className={`flex flex-col h-full shadow-2xl shadow-slate-900 rounded ${
         darkMode
           ? "bg-gradient-to-r from-slate-900 to-slate-700 text-white"
           : ""
