@@ -21,7 +21,7 @@ const CodeEditor = ({ darkMode }) => {
 
   return (
     <div
-      className={`flex flex-col h-full shadow-2xl shadow-slate-900 ${
+      className={`flex h-full flex-col shadow-2xl shadow-slate-900 ${
         darkMode
           ? "bg-gradient-to-r from-slate-900 to-slate-700 text-white"
           : ""
@@ -41,25 +41,25 @@ const CodeEditor = ({ darkMode }) => {
       <div className="flex space-x-4 p-2">
         <button
           onClick={runCode}
-          className="text-white bg-gradient-to-r from-cyan-600 via-cyan-700 to-cyan-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mt-2 mb-2"
+          className="mb-2 me-2 mt-2 rounded-lg bg-gradient-to-r from-cyan-600 via-cyan-700 to-cyan-800 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-cyan-400"
         >
           Run Code
         </button>
         <button
           onClick={submitCode}
-          className="text-white bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mt-2 mb-2"
+          className="mb-2 me-2 mt-2 rounded-lg bg-gradient-to-r from-green-600 via-green-700 to-green-800 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gradient-to-br focus:outline-none focus:ring-4 focus:ring-green-400"
         >
           Submit Code
         </button>
       </div>
       {output && (
-        <div className="p-4 bg-gray-300 m-2 rounded border-t border-gray-300">
+        <div className="m-2 rounded border-t border-gray-300 bg-white p-4">
           <h3 className="font-bold text-gray-800">Output:</h3>
           <pre className="text-gray-700">{output}</pre>
         </div>
       )}
       {submit && (
-        <div className="p-4 bg-gray-300 border-t border-gray-300 m-2 rounded">
+        <div className="m-2 rounded border-t border-gray-300 bg-white p-4">
           <h3 className="font-bold text-gray-800">Message:</h3>
           <pre className="text-gray-700 dark:text-gray-200">{submit}</pre>
         </div>
