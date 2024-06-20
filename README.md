@@ -58,7 +58,9 @@ Node Js (v20.11.1)
 3. Run the development server:
    npm run dev
 
-4.
+## Run the Docker container:
+
+docker run -p 3000:3000 codecrafters
 
 ## Deployment Link
 
