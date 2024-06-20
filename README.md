@@ -8,7 +8,7 @@ The code inside the editor is static and intended for demonstration purposes onl
 
 Navbar.js: Contains the navigation bar with a dark mode toggle button.
 
-CodeEditor.js: Includes the Monaco Editor with run and submit buttons, displays test case results, and shows a modal on submission.
+CodeEditor.js: Includes the Monaco Editor with run and submit buttons, displays test case results, submission message.
 
 ## Features
 
