@@ -53,10 +53,10 @@ Node Js (v20.11.1)
    cd codecrafters
 
 2. Install dependencies:
-   npm install
+   "npm install" or "yarn"
 
 3. Run the development server:
-   npm run dev
+   "npm run dev" or "yarn dev"
 
 ## Run the Docker container:
 
