@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div className="bg-gradient-to-b from-teal-600 to-teal-400">
       <Navbar darkMode={darkMode} changeDarkMode={changeDarkMode} />
       <div className="min-h-screen flex flex-col md:flex-row">
         <section
@@ -33,6 +33,6 @@ export default function Home() {
           <CodeEditor darkMode={darkMode} />
         </section>
       </div>
-    </>
+    </div>
   );
 }
