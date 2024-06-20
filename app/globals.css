@@ -31,54 +31,7 @@ body {
     text-wrap: balance;
   }
 
-  .bg-navbar {
-    background-color: #0e141e;
-  }
-
-  .bg-sectioncolor {
-    background-color: #1d2432;
-  }
-
-  .bg-toggle {
-    background-color: #e7eeef;
-  }
-
   .statement-color {
     color: #cccfda;
-  }
-
-  .run-button {
-    background-color: #f7f8fd;
-    color: #13813a;
-    border: 1px solid #13813a;
-    font-weight: bold;
-    border-radius: 0.6rem;
-  }
-
-  .submit-button {
-    background-color: #1d2432;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 0.6rem;
-  }
-
-  .run-button-dark {
-    background-color: #262e42;
-    color: #ffffff;
-    border: 1px solid #4dad6f;
-  }
-
-  .submit-button-dark {
-    background-color: #2f3852;
-  }
-
-  .run-button-dark:hover {
-    background-color: #3e4a6b;
-    transition: 0.4s;
-  }
-
-  .submit-button-dark:hover {
-    background-color: #6f7a9c;
-    transition: 0.4s;
   }
 }
