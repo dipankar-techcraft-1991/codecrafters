@@ -18,15 +18,15 @@ Displays the problem description.
 
 ### Code Editor:
 
-Integrates the Monaco Editor for code editing with "Run" and "Submit" buttons.
+Integrates the Monaco Editor for code editing with "Run Code" and "Submit Code" buttons.
 
 ### Results:
 
-Displays mock output below when the "Run" button is clicked.
+Displays mock output below when the "Run Code" button is clicked.
 
 ### Submission Confirmation:
 
-Display a mock submission confirmation message below when the "Submit" button is clicked.
+Display a mock submission confirmation message below when the "Submit Code" button is clicked.
 
 ### Dark Mode:
 
