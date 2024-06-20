@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-teal-600 to-teal-400">
+    <div className="bg-gradient-to-b from-teal-700 to-teal-500">
       <Navbar darkMode={darkMode} changeDarkMode={changeDarkMode} />
       <div className="min-h-screen flex flex-col md:flex-row">
         <section
